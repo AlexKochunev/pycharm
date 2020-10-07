@@ -1,0 +1,6 @@
+i = int(input('Введите число:'))
+s = input('Введите строку:')
+f = float(input('Введите float:'))
+print(f'цифра = {i:8,}')
+print(f'строка = {s:0}')
+print(f'float = {f:15.2f}')
