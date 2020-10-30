@@ -1,7 +1,9 @@
-password_orig = '123456'
-password = input('password: ')
-if password == password_orig:
-    print('ok')
-else:
-    print('fail')
-name = print('name %s age %d'%)
+class MyClass:
+    def __init__(self, p_1):
+        self.p_1 = p_1
+
+
+my_1 = MyClass(78)
+my_2 = my_1
+del my_1
+print(my_2.p_1)
